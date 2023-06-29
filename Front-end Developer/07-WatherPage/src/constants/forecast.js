@@ -1,0 +1,1502 @@
+export const forecastData = {
+  cod: "200",
+  message: 0,
+  cnt: 40,
+  list: [
+    {
+      dt: 1677801600,
+      main: {
+        temp: 20.84,
+        feels_like: 21.09,
+        temp_min: 20.84,
+        temp_max: 20.84,
+        pressure: 1009,
+        sea_level: 1009,
+        grnd_level: 907,
+        humidity: 81,
+        temp_kf: 0,
+      },
+      weather: [
+        {
+          id: 500,
+          main: "Rain",
+          description: "light rain",
+          icon: "10n",
+        },
+      ],
+      clouds: {
+        all: 69,
+      },
+      wind: {
+        speed: 2.27,
+        deg: 352,
+        gust: 3.2,
+      },
+      visibility: 10000,
+      pop: 0.6,
+      rain: {
+        "3h": 0.44,
+      },
+      sys: {
+        pod: "n",
+      },
+      dt_txt: "2023-03-03 00:00:00",
+    },
+    {
+      dt: 1677812400,
+      main: {
+        temp: 20.58,
+        feels_like: 20.89,
+        temp_min: 20.06,
+        temp_max: 20.58,
+        pressure: 1010,
+        sea_level: 1010,
+        grnd_level: 908,
+        humidity: 84,
+        temp_kf: 0.52,
+      },
+      weather: [
+        {
+          id: 500,
+          main: "Rain",
+          description: "light rain",
+          icon: "10n",
+        },
+      ],
+      clouds: {
+        all: 79,
+      },
+      wind: {
+        speed: 0.41,
+        deg: 296,
+        gust: 0.53,
+      },
+      visibility: 10000,
+      pop: 0.44,
+      rain: {
+        "3h": 0.25,
+      },
+      sys: {
+        pod: "n",
+      },
+      dt_txt: "2023-03-03 03:00:00",
+    },
+    {
+      dt: 1677823200,
+      main: {
+        temp: 19.59,
+        feels_like: 19.88,
+        temp_min: 18.96,
+        temp_max: 19.59,
+        pressure: 1009,
+        sea_level: 1009,
+        grnd_level: 906,
+        humidity: 87,
+        temp_kf: 0.63,
+      },
+      weather: [
+        {
+          id: 500,
+          main: "Rain",
+          description: "light rain",
+          icon: "10n",
+        },
+      ],
+      clouds: {
+        all: 81,
+      },
+      wind: {
+        speed: 0.24,
+        deg: 20,
+        gust: 0.7,
+      },
+      visibility: 10000,
+      pop: 0.48,
+      rain: {
+        "3h": 0.13,
+      },
+      sys: {
+        pod: "n",
+      },
+      dt_txt: "2023-03-03 06:00:00",
+    },
+    {
+      dt: 1677834000,
+      main: {
+        temp: 17.5,
+        feels_like: 17.66,
+        temp_min: 17.5,
+        temp_max: 17.5,
+        pressure: 1007,
+        sea_level: 1007,
+        grnd_level: 904,
+        humidity: 90,
+        temp_kf: 0,
+      },
+      weather: [
+        {
+          id: 800,
+          main: "Clear",
+          description: "clear sky",
+          icon: "01n",
+        },
+      ],
+      clouds: {
+        all: 5,
+      },
+      wind: {
+        speed: 0.24,
+        deg: 205,
+        gust: 0.7,
+      },
+      visibility: 10000,
+      pop: 0.04,
+      sys: {
+        pod: "n",
+      },
+      dt_txt: "2023-03-03 09:00:00",
+    },
+    {
+      dt: 1677844800,
+      main: {
+        temp: 21.76,
+        feels_like: 21.87,
+        temp_min: 21.76,
+        temp_max: 21.76,
+        pressure: 1008,
+        sea_level: 1008,
+        grnd_level: 906,
+        humidity: 72,
+        temp_kf: 0,
+      },
+      weather: [
+        {
+          id: 800,
+          main: "Clear",
+          description: "clear sky",
+          icon: "01d",
+        },
+      ],
+      clouds: {
+        all: 3,
+      },
+      wind: {
+        speed: 1.3,
+        deg: 325,
+        gust: 1.8,
+      },
+      visibility: 10000,
+      pop: 0,
+      sys: {
+        pod: "d",
+      },
+      dt_txt: "2023-03-03 12:00:00",
+    },
+    {
+      dt: 1677855600,
+      main: {
+        temp: 30.33,
+        feels_like: 29.73,
+        temp_min: 30.33,
+        temp_max: 30.33,
+        pressure: 1006,
+        sea_level: 1006,
+        grnd_level: 907,
+        humidity: 37,
+        temp_kf: 0,
+      },
+      weather: [
+        {
+          id: 800,
+          main: "Clear",
+          description: "clear sky",
+          icon: "01d",
+        },
+      ],
+      clouds: {
+        all: 0,
+      },
+      wind: {
+        speed: 2.46,
+        deg: 344,
+        gust: 3.62,
+      },
+      visibility: 10000,
+      pop: 0,
+      sys: {
+        pod: "d",
+      },
+      dt_txt: "2023-03-03 15:00:00",
+    },
+    {
+      dt: 1677866400,
+      main: {
+        temp: 33.61,
+        feels_like: 32.47,
+        temp_min: 33.61,
+        temp_max: 33.61,
+        pressure: 1002,
+        sea_level: 1002,
+        grnd_level: 904,
+        humidity: 28,
+        temp_kf: 0,
+      },
+      weather: [
+        {
+          id: 800,
+          main: "Clear",
+          description: "clear sky",
+          icon: "01d",
+        },
+      ],
+      clouds: {
+        all: 0,
+      },
+      wind: {
+        speed: 4.04,
+        deg: 331,
+        gust: 4.33,
+      },
+      visibility: 10000,
+      pop: 0,
+      sys: {
+        pod: "d",
+      },
+      dt_txt: "2023-03-03 18:00:00",
+    },
+    {
+      dt: 1677877200,
+      main: {
+        temp: 31.96,
+        feels_like: 31.42,
+        temp_min: 31.96,
+        temp_max: 31.96,
+        pressure: 1001,
+        sea_level: 1001,
+        grnd_level: 903,
+        humidity: 35,
+        temp_kf: 0,
+      },
+      weather: [
+        {
+          id: 802,
+          main: "Clouds",
+          description: "scattered clouds",
+          icon: "03d",
+        },
+      ],
+      clouds: {
+        all: 26,
+      },
+      wind: {
+        speed: 2.49,
+        deg: 26,
+        gust: 2.91,
+      },
+      visibility: 10000,
+      pop: 0,
+      sys: {
+        pod: "d",
+      },
+      dt_txt: "2023-03-03 21:00:00",
+    },
+    {
+      dt: 1677888000,
+      main: {
+        temp: 23.14,
+        feels_like: 23.13,
+        temp_min: 23.14,
+        temp_max: 23.14,
+        pressure: 1005,
+        sea_level: 1005,
+        grnd_level: 903,
+        humidity: 62,
+        temp_kf: 0,
+      },
+      weather: [
+        {
+          id: 802,
+          main: "Clouds",
+          description: "scattered clouds",
+          icon: "03n",
+        },
+      ],
+      clouds: {
+        all: 47,
+      },
+      wind: {
+        speed: 0.94,
+        deg: 133,
+        gust: 1.23,
+      },
+      visibility: 10000,
+      pop: 0,
+      sys: {
+        pod: "n",
+      },
+      dt_txt: "2023-03-04 00:00:00",
+    },
+    {
+      dt: 1677898800,
+      main: {
+        temp: 21.62,
+        feels_like: 21.64,
+        temp_min: 21.62,
+        temp_max: 21.62,
+        pressure: 1007,
+        sea_level: 1007,
+        grnd_level: 905,
+        humidity: 69,
+        temp_kf: 0,
+      },
+      weather: [
+        {
+          id: 800,
+          main: "Clear",
+          description: "clear sky",
+          icon: "01n",
+        },
+      ],
+      clouds: {
+        all: 2,
+      },
+      wind: {
+        speed: 0.18,
+        deg: 205,
+        gust: 0.93,
+      },
+      visibility: 10000,
+      pop: 0,
+      sys: {
+        pod: "n",
+      },
+      dt_txt: "2023-03-04 03:00:00",
+    },
+    {
+      dt: 1677909600,
+      main: {
+        temp: 20.91,
+        feels_like: 20.88,
+        temp_min: 20.91,
+        temp_max: 20.91,
+        pressure: 1007,
+        sea_level: 1007,
+        grnd_level: 905,
+        humidity: 70,
+        temp_kf: 0,
+      },
+      weather: [
+        {
+          id: 800,
+          main: "Clear",
+          description: "clear sky",
+          icon: "01n",
+        },
+      ],
+      clouds: {
+        all: 7,
+      },
+      wind: {
+        speed: 0.05,
+        deg: 101,
+        gust: 0.7,
+      },
+      visibility: 10000,
+      pop: 0,
+      sys: {
+        pod: "n",
+      },
+      dt_txt: "2023-03-04 06:00:00",
+    },
+    {
+      dt: 1677920400,
+      main: {
+        temp: 20.15,
+        feels_like: 20.18,
+        temp_min: 20.15,
+        temp_max: 20.15,
+        pressure: 1008,
+        sea_level: 1008,
+        grnd_level: 905,
+        humidity: 75,
+        temp_kf: 0,
+      },
+      weather: [
+        {
+          id: 500,
+          main: "Rain",
+          description: "light rain",
+          icon: "10n",
+        },
+      ],
+      clouds: {
+        all: 1,
+      },
+      wind: {
+        speed: 0.75,
+        deg: 246,
+        gust: 1.01,
+      },
+      visibility: 10000,
+      pop: 0.36,
+      rain: {
+        "3h": 0.13,
+      },
+      sys: {
+        pod: "n",
+      },
+      dt_txt: "2023-03-04 09:00:00",
+    },
+    {
+      dt: 1677931200,
+      main: {
+        temp: 21.88,
+        feels_like: 22.16,
+        temp_min: 21.88,
+        temp_max: 21.88,
+        pressure: 1011,
+        sea_level: 1011,
+        grnd_level: 908,
+        humidity: 78,
+        temp_kf: 0,
+      },
+      weather: [
+        {
+          id: 500,
+          main: "Rain",
+          description: "light rain",
+          icon: "10d",
+        },
+      ],
+      clouds: {
+        all: 48,
+      },
+      wind: {
+        speed: 1.47,
+        deg: 191,
+        gust: 2.53,
+      },
+      visibility: 10000,
+      pop: 0.28,
+      rain: {
+        "3h": 0.19,
+      },
+      sys: {
+        pod: "d",
+      },
+      dt_txt: "2023-03-04 12:00:00",
+    },
+    {
+      dt: 1677942000,
+      main: {
+        temp: 31.75,
+        feels_like: 31.92,
+        temp_min: 31.75,
+        temp_max: 31.75,
+        pressure: 1010,
+        sea_level: 1010,
+        grnd_level: 910,
+        humidity: 40,
+        temp_kf: 0,
+      },
+      weather: [
+        {
+          id: 803,
+          main: "Clouds",
+          description: "broken clouds",
+          icon: "04d",
+        },
+      ],
+      clouds: {
+        all: 71,
+      },
+      wind: {
+        speed: 1.54,
+        deg: 115,
+        gust: 1.41,
+      },
+      visibility: 10000,
+      pop: 0.24,
+      sys: {
+        pod: "d",
+      },
+      dt_txt: "2023-03-04 15:00:00",
+    },
+    {
+      dt: 1677952800,
+      main: {
+        temp: 35.52,
+        feels_like: 35,
+        temp_min: 35.52,
+        temp_max: 35.52,
+        pressure: 1006,
+        sea_level: 1006,
+        grnd_level: 908,
+        humidity: 28,
+        temp_kf: 0,
+      },
+      weather: [
+        {
+          id: 802,
+          main: "Clouds",
+          description: "scattered clouds",
+          icon: "03d",
+        },
+      ],
+      clouds: {
+        all: 41,
+      },
+      wind: {
+        speed: 3.8,
+        deg: 129,
+        gust: 2.93,
+      },
+      visibility: 10000,
+      pop: 0.24,
+      sys: {
+        pod: "d",
+      },
+      dt_txt: "2023-03-04 18:00:00",
+    },
+    {
+      dt: 1677963600,
+      main: {
+        temp: 31.73,
+        feels_like: 31.42,
+        temp_min: 31.73,
+        temp_max: 31.73,
+        pressure: 1006,
+        sea_level: 1006,
+        grnd_level: 907,
+        humidity: 37,
+        temp_kf: 0,
+      },
+      weather: [
+        {
+          id: 500,
+          main: "Rain",
+          description: "light rain",
+          icon: "10d",
+        },
+      ],
+      clouds: {
+        all: 64,
+      },
+      wind: {
+        speed: 1.29,
+        deg: 113,
+        gust: 3.91,
+      },
+      visibility: 10000,
+      pop: 0.52,
+      rain: {
+        "3h": 0.31,
+      },
+      sys: {
+        pod: "d",
+      },
+      dt_txt: "2023-03-04 21:00:00",
+    },
+    {
+      dt: 1677974400,
+      main: {
+        temp: 21.65,
+        feels_like: 21.83,
+        temp_min: 21.65,
+        temp_max: 21.65,
+        pressure: 1010,
+        sea_level: 1010,
+        grnd_level: 908,
+        humidity: 75,
+        temp_kf: 0,
+      },
+      weather: [
+        {
+          id: 803,
+          main: "Clouds",
+          description: "broken clouds",
+          icon: "04n",
+        },
+      ],
+      clouds: {
+        all: 78,
+      },
+      wind: {
+        speed: 1.42,
+        deg: 306,
+        gust: 1.52,
+      },
+      visibility: 10000,
+      pop: 0.6,
+      sys: {
+        pod: "n",
+      },
+      dt_txt: "2023-03-05 00:00:00",
+    },
+    {
+      dt: 1677985200,
+      main: {
+        temp: 19.98,
+        feels_like: 20.44,
+        temp_min: 19.98,
+        temp_max: 19.98,
+        pressure: 1013,
+        sea_level: 1013,
+        grnd_level: 910,
+        humidity: 92,
+        temp_kf: 0,
+      },
+      weather: [
+        {
+          id: 500,
+          main: "Rain",
+          description: "light rain",
+          icon: "10n",
+        },
+      ],
+      clouds: {
+        all: 100,
+      },
+      wind: {
+        speed: 1.41,
+        deg: 344,
+        gust: 1.6,
+      },
+      visibility: 10000,
+      pop: 0.4,
+      rain: {
+        "3h": 0.13,
+      },
+      sys: {
+        pod: "n",
+      },
+      dt_txt: "2023-03-05 03:00:00",
+    },
+    {
+      dt: 1677996000,
+      main: {
+        temp: 19.32,
+        feels_like: 19.61,
+        temp_min: 19.32,
+        temp_max: 19.32,
+        pressure: 1011,
+        sea_level: 1011,
+        grnd_level: 908,
+        humidity: 88,
+        temp_kf: 0,
+      },
+      weather: [
+        {
+          id: 804,
+          main: "Clouds",
+          description: "overcast clouds",
+          icon: "04n",
+        },
+      ],
+      clouds: {
+        all: 87,
+      },
+      wind: {
+        speed: 0.95,
+        deg: 326,
+        gust: 1.1,
+      },
+      visibility: 10000,
+      pop: 0.28,
+      sys: {
+        pod: "n",
+      },
+      dt_txt: "2023-03-05 06:00:00",
+    },
+    {
+      dt: 1678006800,
+      main: {
+        temp: 19.13,
+        feels_like: 19.32,
+        temp_min: 19.13,
+        temp_max: 19.13,
+        pressure: 1011,
+        sea_level: 1011,
+        grnd_level: 908,
+        humidity: 85,
+        temp_kf: 0,
+      },
+      weather: [
+        {
+          id: 800,
+          main: "Clear",
+          description: "clear sky",
+          icon: "01n",
+        },
+      ],
+      clouds: {
+        all: 9,
+      },
+      wind: {
+        speed: 1.2,
+        deg: 194,
+        gust: 1.41,
+      },
+      visibility: 10000,
+      pop: 0,
+      sys: {
+        pod: "n",
+      },
+      dt_txt: "2023-03-05 09:00:00",
+    },
+    {
+      dt: 1678017600,
+      main: {
+        temp: 24.46,
+        feels_like: 24.5,
+        temp_min: 24.46,
+        temp_max: 24.46,
+        pressure: 1012,
+        sea_level: 1012,
+        grnd_level: 910,
+        humidity: 59,
+        temp_kf: 0,
+      },
+      weather: [
+        {
+          id: 801,
+          main: "Clouds",
+          description: "few clouds",
+          icon: "02d",
+        },
+      ],
+      clouds: {
+        all: 17,
+      },
+      wind: {
+        speed: 1.51,
+        deg: 179,
+        gust: 2.53,
+      },
+      visibility: 10000,
+      pop: 0,
+      sys: {
+        pod: "d",
+      },
+      dt_txt: "2023-03-05 12:00:00",
+    },
+    {
+      dt: 1678028400,
+      main: {
+        temp: 33.99,
+        feels_like: 33.83,
+        temp_min: 33.99,
+        temp_max: 33.99,
+        pressure: 1010,
+        sea_level: 1010,
+        grnd_level: 911,
+        humidity: 33,
+        temp_kf: 0,
+      },
+      weather: [
+        {
+          id: 801,
+          main: "Clouds",
+          description: "few clouds",
+          icon: "02d",
+        },
+      ],
+      clouds: {
+        all: 15,
+      },
+      wind: {
+        speed: 1.08,
+        deg: 143,
+        gust: 2.31,
+      },
+      visibility: 10000,
+      pop: 0,
+      sys: {
+        pod: "d",
+      },
+      dt_txt: "2023-03-05 15:00:00",
+    },
+    {
+      dt: 1678039200,
+      main: {
+        temp: 29.29,
+        feels_like: 29.55,
+        temp_min: 29.29,
+        temp_max: 29.29,
+        pressure: 1008,
+        sea_level: 1008,
+        grnd_level: 908,
+        humidity: 46,
+        temp_kf: 0,
+      },
+      weather: [
+        {
+          id: 802,
+          main: "Clouds",
+          description: "scattered clouds",
+          icon: "03d",
+        },
+      ],
+      clouds: {
+        all: 37,
+      },
+      wind: {
+        speed: 3.83,
+        deg: 113,
+        gust: 6.02,
+      },
+      visibility: 10000,
+      pop: 0.04,
+      sys: {
+        pod: "d",
+      },
+      dt_txt: "2023-03-05 18:00:00",
+    },
+    {
+      dt: 1678050000,
+      main: {
+        temp: 31.11,
+        feels_like: 30.91,
+        temp_min: 31.11,
+        temp_max: 31.11,
+        pressure: 1005,
+        sea_level: 1005,
+        grnd_level: 906,
+        humidity: 39,
+        temp_kf: 0,
+      },
+      weather: [
+        {
+          id: 803,
+          main: "Clouds",
+          description: "broken clouds",
+          icon: "04d",
+        },
+      ],
+      clouds: {
+        all: 59,
+      },
+      wind: {
+        speed: 3.91,
+        deg: 92,
+        gust: 5.2,
+      },
+      visibility: 10000,
+      pop: 0.28,
+      sys: {
+        pod: "d",
+      },
+      dt_txt: "2023-03-05 21:00:00",
+    },
+    {
+      dt: 1678060800,
+      main: {
+        temp: 23.41,
+        feels_like: 23.61,
+        temp_min: 23.41,
+        temp_max: 23.41,
+        pressure: 1008,
+        sea_level: 1008,
+        grnd_level: 906,
+        humidity: 69,
+        temp_kf: 0,
+      },
+      weather: [
+        {
+          id: 500,
+          main: "Rain",
+          description: "light rain",
+          icon: "10n",
+        },
+      ],
+      clouds: {
+        all: 71,
+      },
+      wind: {
+        speed: 1.57,
+        deg: 333,
+        gust: 1.5,
+      },
+      visibility: 10000,
+      pop: 0.52,
+      rain: {
+        "3h": 0.25,
+      },
+      sys: {
+        pod: "n",
+      },
+      dt_txt: "2023-03-06 00:00:00",
+    },
+    {
+      dt: 1678071600,
+      main: {
+        temp: 20.06,
+        feels_like: 20.47,
+        temp_min: 20.06,
+        temp_max: 20.06,
+        pressure: 1011,
+        sea_level: 1011,
+        grnd_level: 908,
+        humidity: 90,
+        temp_kf: 0,
+      },
+      weather: [
+        {
+          id: 500,
+          main: "Rain",
+          description: "light rain",
+          icon: "10n",
+        },
+      ],
+      clouds: {
+        all: 100,
+      },
+      wind: {
+        speed: 2.22,
+        deg: 343,
+        gust: 2.92,
+      },
+      visibility: 10000,
+      pop: 0.68,
+      rain: {
+        "3h": 0.5,
+      },
+      sys: {
+        pod: "n",
+      },
+      dt_txt: "2023-03-06 03:00:00",
+    },
+    {
+      dt: 1678082400,
+      main: {
+        temp: 19.4,
+        feels_like: 19.77,
+        temp_min: 19.4,
+        temp_max: 19.4,
+        pressure: 1009,
+        sea_level: 1009,
+        grnd_level: 906,
+        humidity: 91,
+        temp_kf: 0,
+      },
+      weather: [
+        {
+          id: 804,
+          main: "Clouds",
+          description: "overcast clouds",
+          icon: "04n",
+        },
+      ],
+      clouds: {
+        all: 100,
+      },
+      wind: {
+        speed: 0.53,
+        deg: 266,
+        gust: 0.71,
+      },
+      visibility: 10000,
+      pop: 0.52,
+      sys: {
+        pod: "n",
+      },
+      dt_txt: "2023-03-06 06:00:00",
+    },
+    {
+      dt: 1678093200,
+      main: {
+        temp: 18.99,
+        feels_like: 19.29,
+        temp_min: 18.99,
+        temp_max: 18.99,
+        pressure: 1008,
+        sea_level: 1008,
+        grnd_level: 905,
+        humidity: 90,
+        temp_kf: 0,
+      },
+      weather: [
+        {
+          id: 803,
+          main: "Clouds",
+          description: "broken clouds",
+          icon: "04n",
+        },
+      ],
+      clouds: {
+        all: 62,
+      },
+      wind: {
+        speed: 0.44,
+        deg: 330,
+        gust: 0.8,
+      },
+      visibility: 10000,
+      pop: 0,
+      sys: {
+        pod: "n",
+      },
+      dt_txt: "2023-03-06 09:00:00",
+    },
+    {
+      dt: 1678104000,
+      main: {
+        temp: 23.34,
+        feels_like: 23.64,
+        temp_min: 23.34,
+        temp_max: 23.34,
+        pressure: 1008,
+        sea_level: 1008,
+        grnd_level: 906,
+        humidity: 73,
+        temp_kf: 0,
+      },
+      weather: [
+        {
+          id: 802,
+          main: "Clouds",
+          description: "scattered clouds",
+          icon: "03d",
+        },
+      ],
+      clouds: {
+        all: 39,
+      },
+      wind: {
+        speed: 0.35,
+        deg: 337,
+        gust: 0.51,
+      },
+      visibility: 10000,
+      pop: 0,
+      sys: {
+        pod: "d",
+      },
+      dt_txt: "2023-03-06 12:00:00",
+    },
+    {
+      dt: 1678114800,
+      main: {
+        temp: 32.57,
+        feels_like: 32.74,
+        temp_min: 32.57,
+        temp_max: 32.57,
+        pressure: 1006,
+        sea_level: 1006,
+        grnd_level: 907,
+        humidity: 38,
+        temp_kf: 0,
+      },
+      weather: [
+        {
+          id: 802,
+          main: "Clouds",
+          description: "scattered clouds",
+          icon: "03d",
+        },
+      ],
+      clouds: {
+        all: 35,
+      },
+      wind: {
+        speed: 1.64,
+        deg: 354,
+        gust: 4.91,
+      },
+      visibility: 10000,
+      pop: 0.04,
+      sys: {
+        pod: "d",
+      },
+      dt_txt: "2023-03-06 15:00:00",
+    },
+    {
+      dt: 1678125600,
+      main: {
+        temp: 34.34,
+        feels_like: 34.55,
+        temp_min: 34.34,
+        temp_max: 34.34,
+        pressure: 1002,
+        sea_level: 1002,
+        grnd_level: 904,
+        humidity: 34,
+        temp_kf: 0,
+      },
+      weather: [
+        {
+          id: 802,
+          main: "Clouds",
+          description: "scattered clouds",
+          icon: "03d",
+        },
+      ],
+      clouds: {
+        all: 29,
+      },
+      wind: {
+        speed: 2.6,
+        deg: 22,
+        gust: 4.31,
+      },
+      visibility: 10000,
+      pop: 0.04,
+      sys: {
+        pod: "d",
+      },
+      dt_txt: "2023-03-06 18:00:00",
+    },
+    {
+      dt: 1678136400,
+      main: {
+        temp: 32.36,
+        feels_like: 33,
+        temp_min: 32.36,
+        temp_max: 32.36,
+        pressure: 1001,
+        sea_level: 1001,
+        grnd_level: 903,
+        humidity: 41,
+        temp_kf: 0,
+      },
+      weather: [
+        {
+          id: 804,
+          main: "Clouds",
+          description: "overcast clouds",
+          icon: "04d",
+        },
+      ],
+      clouds: {
+        all: 86,
+      },
+      wind: {
+        speed: 2.46,
+        deg: 89,
+        gust: 3.8,
+      },
+      visibility: 10000,
+      pop: 0.08,
+      sys: {
+        pod: "d",
+      },
+      dt_txt: "2023-03-06 21:00:00",
+    },
+    {
+      dt: 1678147200,
+      main: {
+        temp: 26.92,
+        feels_like: 27.85,
+        temp_min: 26.92,
+        temp_max: 26.92,
+        pressure: 1004,
+        sea_level: 1004,
+        grnd_level: 904,
+        humidity: 58,
+        temp_kf: 0,
+      },
+      weather: [
+        {
+          id: 803,
+          main: "Clouds",
+          description: "broken clouds",
+          icon: "04n",
+        },
+      ],
+      clouds: {
+        all: 82,
+      },
+      wind: {
+        speed: 1.41,
+        deg: 151,
+        gust: 1.5,
+      },
+      visibility: 10000,
+      pop: 0.44,
+      sys: {
+        pod: "n",
+      },
+      dt_txt: "2023-03-07 00:00:00",
+    },
+    {
+      dt: 1678158000,
+      main: {
+        temp: 24.29,
+        feels_like: 24.65,
+        temp_min: 24.29,
+        temp_max: 24.29,
+        pressure: 1006,
+        sea_level: 1006,
+        grnd_level: 905,
+        humidity: 72,
+        temp_kf: 0,
+      },
+      weather: [
+        {
+          id: 500,
+          main: "Rain",
+          description: "light rain",
+          icon: "10n",
+        },
+      ],
+      clouds: {
+        all: 100,
+      },
+      wind: {
+        speed: 1.55,
+        deg: 298,
+        gust: 1.5,
+      },
+      visibility: 10000,
+      pop: 0.88,
+      rain: {
+        "3h": 0.31,
+      },
+      sys: {
+        pod: "n",
+      },
+      dt_txt: "2023-03-07 03:00:00",
+    },
+    {
+      dt: 1678168800,
+      main: {
+        temp: 20.67,
+        feels_like: 21.22,
+        temp_min: 20.67,
+        temp_max: 20.67,
+        pressure: 1006,
+        sea_level: 1006,
+        grnd_level: 904,
+        humidity: 93,
+        temp_kf: 0,
+      },
+      weather: [
+        {
+          id: 500,
+          main: "Rain",
+          description: "light rain",
+          icon: "10n",
+        },
+      ],
+      clouds: {
+        all: 92,
+      },
+      wind: {
+        speed: 0.63,
+        deg: 241,
+        gust: 0.9,
+      },
+      visibility: 10000,
+      pop: 1,
+      rain: {
+        "3h": 2.38,
+      },
+      sys: {
+        pod: "n",
+      },
+      dt_txt: "2023-03-07 06:00:00",
+    },
+    {
+      dt: 1678179600,
+      main: {
+        temp: 19.99,
+        feels_like: 20.5,
+        temp_min: 19.99,
+        temp_max: 19.99,
+        pressure: 1005,
+        sea_level: 1005,
+        grnd_level: 903,
+        humidity: 94,
+        temp_kf: 0,
+      },
+      weather: [
+        {
+          id: 803,
+          main: "Clouds",
+          description: "broken clouds",
+          icon: "04n",
+        },
+      ],
+      clouds: {
+        all: 53,
+      },
+      wind: {
+        speed: 0.92,
+        deg: 154,
+        gust: 1.1,
+      },
+      visibility: 10000,
+      pop: 0.08,
+      sys: {
+        pod: "n",
+      },
+      dt_txt: "2023-03-07 09:00:00",
+    },
+    {
+      dt: 1678190400,
+      main: {
+        temp: 21.66,
+        feels_like: 22.31,
+        temp_min: 21.66,
+        temp_max: 21.66,
+        pressure: 1008,
+        sea_level: 1008,
+        grnd_level: 906,
+        humidity: 93,
+        temp_kf: 0,
+      },
+      weather: [
+        {
+          id: 803,
+          main: "Clouds",
+          description: "broken clouds",
+          icon: "04d",
+        },
+      ],
+      clouds: {
+        all: 76,
+      },
+      wind: {
+        speed: 3.37,
+        deg: 160,
+        gust: 6.11,
+      },
+      visibility: 10000,
+      pop: 0.16,
+      sys: {
+        pod: "d",
+      },
+      dt_txt: "2023-03-07 12:00:00",
+    },
+    {
+      dt: 1678201200,
+      main: {
+        temp: 24.75,
+        feels_like: 25.24,
+        temp_min: 24.75,
+        temp_max: 24.75,
+        pressure: 1009,
+        sea_level: 1009,
+        grnd_level: 907,
+        humidity: 75,
+        temp_kf: 0,
+      },
+      weather: [
+        {
+          id: 500,
+          main: "Rain",
+          description: "light rain",
+          icon: "10d",
+        },
+      ],
+      clouds: {
+        all: 83,
+      },
+      wind: {
+        speed: 4.14,
+        deg: 138,
+        gust: 5.31,
+      },
+      visibility: 10000,
+      pop: 1,
+      rain: {
+        "3h": 0.69,
+      },
+      sys: {
+        pod: "d",
+      },
+      dt_txt: "2023-03-07 15:00:00",
+    },
+    {
+      dt: 1678212000,
+      main: {
+        temp: 21.06,
+        feels_like: 21.57,
+        temp_min: 21.06,
+        temp_max: 21.06,
+        pressure: 1008,
+        sea_level: 1008,
+        grnd_level: 906,
+        humidity: 90,
+        temp_kf: 0,
+      },
+      weather: [
+        {
+          id: 500,
+          main: "Rain",
+          description: "light rain",
+          icon: "10d",
+        },
+      ],
+      clouds: {
+        all: 87,
+      },
+      wind: {
+        speed: 3.59,
+        deg: 141,
+        gust: 8.41,
+      },
+      visibility: 9255,
+      pop: 1,
+      rain: {
+        "3h": 0.63,
+      },
+      sys: {
+        pod: "d",
+      },
+      dt_txt: "2023-03-07 18:00:00",
+    },
+    {
+      dt: 1678222800,
+      main: {
+        temp: 19.79,
+        feels_like: 20.36,
+        temp_min: 19.79,
+        temp_max: 19.79,
+        pressure: 1008,
+        sea_level: 1008,
+        grnd_level: 905,
+        humidity: 97,
+        temp_kf: 0,
+      },
+      weather: [
+        {
+          id: 500,
+          main: "Rain",
+          description: "light rain",
+          icon: "10d",
+        },
+      ],
+      clouds: {
+        all: 100,
+      },
+      wind: {
+        speed: 2.34,
+        deg: 161,
+        gust: 5.92,
+      },
+      visibility: 2002,
+      pop: 0.88,
+      rain: {
+        "3h": 0.69,
+      },
+      sys: {
+        pod: "d",
+      },
+      dt_txt: "2023-03-07 21:00:00",
+    },
+  ],
+  city: {
+    id: 3854947,
+    name: "González",
+    coord: {
+      lat: -25,
+      lon: -65,
+    },
+    country: "AR",
+    population: 0,
+    timezone: -10800,
+    sunrise: 1677752103,
+    sunset: 1677797380,
+  },
+};
