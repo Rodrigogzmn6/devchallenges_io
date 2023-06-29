@@ -1,0 +1,240 @@
+/*
+FONTS
+font-family: 'Crimson Pro', serif;
+font-family: 'Lora', serif;
+font-family: 'Montserrat', sans-serif;
+*/
+
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: #fff;
+}
+
+html {
+    background: #181719;
+    color: #fff;
+}
+
+/*HAMBURGER MENU*/
+@media screen and (max-width: 1023px) {
+    header {
+        padding: 1.19rem 0.75rem;
+    }
+
+    header.hide {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    header.show {
+        text-align: right;
+    }
+
+    .title {
+        display: inline-block;
+    }
+
+    .hamburger-button {
+        display: inline-block;
+    }
+
+    .hamburger-button button{
+        color: white;
+        background-color: #181719;
+    }
+
+    .invisible {
+        display: none;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: stretch;
+        margin: 11.38rem 0;
+        text-align: center;
+        width: 100%;
+    }
+
+    ul li{
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+    }
+}
+
+/*SMALL SCREENS*/
+@media screen and (min-width: 0px) {
+    .title {
+        border: 1px solid #fff;
+        font-family: 'Crimson Pro', serif;
+        size: 0.88rem;
+        font-weight: 200;
+        padding: 0.5rem;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    ul li{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.13rem;
+        font-weight: 500;
+    }
+
+    li.selected {
+        text-decoration: underline;
+        font-weight: 700;
+    }
+
+    .main-content {
+        margin-top: 2.38rem;
+        padding: 0 0.75rem;
+    }
+
+    .design-brief {
+        margin-bottom: 2.35rem;
+    }
+
+    .design-brief h2 {
+        font-family: 'Lora', serif;
+        font-size: 2.25rem;
+        font-weight: 500;
+    }
+
+    .design-brief p {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 0.88rem;
+        font-weight: 400;
+        margin: 1.56rem 6.25rem 1.56rem 0;
+    }
+
+    .design-brief a {
+        align-items: center;
+        display: flex;
+        font-weight: 700;
+    }
+
+    .design-brief a span {
+        font-weight: 700;
+        margin-left: 0.94rem;
+    }
+
+    .demo-author img {
+        width: 100%;
+    }
+
+    .card {
+        background-color: #181719;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        margin: -4rem 2.34rem 2.31rem;
+        padding: 1.31rem 1.19rem;
+        position: relative;
+        width: fit-content;
+    }
+
+    .author {
+        margin-bottom: 1.38rem;
+    }
+
+    .author-photo img{
+        border-radius: 100%;
+        margin-right: 1rem;
+        width: 10%;
+    }
+
+    .author-info {
+        display: inline-block;
+    }
+
+    .author-info h3{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 0.75rem;
+        font-weight: 500;
+    }
+
+    .author-info p{
+        color: #828282;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 0.63rem;
+        font-weight: 500;
+    }
+
+    .design-info {
+        font-family: 'Lora', serif;
+        font-size: 1.13rem;
+        font-weight: 700;
+        margin-right: 5.94rem;
+    }
+    
+    footer {
+        color: #A9A9A9;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 0.9rem;
+        line-height: 1.1rem;
+        padding: 1.5rem 0;
+        text-align: center;
+    }
+
+    footer p {
+        font-weight: 500;
+    }
+
+    footer a {
+        font-weight: 700;
+    }
+
+    footer a:link, footer a:visited {
+        color: #A9A9A9;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    /*HEADER*/
+    header {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        padding: 2.63rem 4.81rem;
+    }
+
+    .hamburger-button {
+        display: none;
+    }
+
+    ul {
+        display: flex;
+    }
+
+    ul li {
+        margin-left: 5.38rem;
+    }
+
+    /*MAIN CONTENT*/
+    .main-content {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 4.81rem 6.5rem;
+        padding: 0;
+    }
+
+    .card {
+        width: fit-content;
+    }
+
+    .author {
+        width: fit-content;
+    }
+
+    .design-info {
+        margin: 0;
+    }
+}
