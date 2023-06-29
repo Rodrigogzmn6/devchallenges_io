@@ -1,0 +1,62 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+a:link, a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+body {
+    background-color: #FFF;
+}
+
+/*Sidebar*/
+
+#sidebar {
+    background-color: #FAFBFD;
+    padding: 3rem;
+    width: 12rem;
+}
+
+/*Sidebar Title*/
+
+#sidebar-title {
+    color: #090F31;
+    margin-bottom: 7.5rem;
+}
+
+#sidebar-title h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: .8rem;
+    font-weight: 600;
+}
+
+#sidebar-title a {
+    color: #090F31;
+}
+
+#sidebar-title span {
+    color: #F7542E;
+}
+
+/*Sidebar Button*/
+
+#sidebar-button {
+    margin: 1.5rem 0;
+}
+
+#sidebar-button button {
+    background-color: #FAFBFD;
+    color: #9E9E9E;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+#sidebar-button button.clicked {
+    color: #090F31;
+    font-weight: 700;
+}
