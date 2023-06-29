@@ -1,0 +1,711 @@
+:root {
+    --sm-10-px: 2.67vw;
+    --sm-12-px: 3.2vw;
+    --sm-14-px: 3.73vw;
+    --sm-16-px: 4.27vw;
+    --sm-18-px: 4.8vw;
+    --sm-24-px: 6.4vw;
+    --sm-36-px: 9.6vw;
+}
+
+* {
+    border: 0;
+    color: #333333;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+}
+
+a:visited, a:link {
+    color: black;
+    text-decoration: none;
+}
+
+/*Hamburger Menu*/
+@media screen and (max-width: 1023px) {
+    .hidden {
+        display: none;
+    }
+    
+    /*HEADER*/
+    header.open-menu {
+        background-color: #100E1D;
+        display: block;
+    }
+
+    #hamburger-btn {
+        background: transparent;
+        display: flex;
+        flex-direction: column;
+        height: 4vw;
+        justify-content: space-between;
+        transition: all .5s ease-in-out;
+    }
+
+    #hamburger-btn.closed {
+        width: 4vw;
+    }
+
+    #hamburger-btn.opened {
+        width: 5.4vw;
+        margin-left: auto;
+        margin-right: 0;
+    }
+
+    #hamburger-btn div {
+        background-color: black;
+        border-radius: 5px;
+        height: 1px;
+        width: 100%;
+    }
+
+    #hamburger-btn div#top-line.close-btn {
+        background-color: #fff;
+        transform: rotate(-45deg);
+        transform-origin: top right;
+    }
+    
+    #hamburger-btn div#middle-line.close-btn {
+        opacity: 0;
+    }
+    
+    #hamburger-btn div#bottom-line.close-btn {
+        background-color: #fff;
+        transform: rotate(45deg);
+        transform-origin: bottom right;
+    }
+
+    .menu-bar > ul {
+        align-items: center;
+        flex-direction: column;
+        gap: 3vw;
+    }
+
+    .menu-item a {
+        color: #fff;
+    }
+}
+
+/*Checkear de aqui a abajo*/
+@media screen and (min-width: 0px) {
+    header, section, footer {
+        padding: 3.5vw 2.5vw;
+    }
+
+    h2 {
+        font-size: var(--sm-24-px);
+    }
+
+    /*HEADER*/
+    header {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 4.5vw;
+    }
+
+    .edie-title {
+        font-family: 'Heebo', sans-serif;
+        font-size: var(--sm-24-px);
+        font-weight: 800;
+    }
+
+    .menu-bar > ul {
+        display: flex;
+        list-style: none;
+    }
+
+    .menu-item a {
+        font-size: var(--sm-18-px);
+        font-weight: 400;
+    }
+
+    /*INTRODUCTION*/
+    #introduction {
+        margin-bottom: 26vw;
+    }
+
+    #introduction > *{
+        padding: 0 14.1vw 0 8vw;
+        margin-bottom: 1.6vw;
+    }
+
+    #introduction h3 {
+        color: #2D9CDB;
+        font-size: var(--sm-12-px);
+    }
+
+    #introduction img {
+        border-radius: 0.75rem;
+        padding: 0;
+        width: 100%;
+    }
+
+    #introduction p {
+        font-size: var(--sm-12-px);
+        font-weight: 400;
+    }
+
+    .contact-form h4 {
+        color: #828282;
+        font-size: var(--sm-10-px);
+        margin-top: 8vw;
+    }
+
+    .contact-form form {
+        align-items: center;
+        background-color: #F2F2F2;
+        border-radius: 0.5rem;
+        display: flex;
+        font-size: var(--sm-14-px);
+        justify-content: space-between;
+        padding: 0;
+    }
+
+    .contact-form form input {
+        background-color: #F2F2F2;
+        flex-shrink: 2;
+        min-width: 0;
+        margin-left: 5.3vw;
+    }
+
+    .contact-form form button {
+        background-color: #2D9CDB;
+        border-radius: 0.75rem;
+        color: #fff;
+        flex-shrink: 0;
+        padding: 3.2vw 5.3vw;
+        margin: 1.1vw 1.1vw 1.1vw 5vw;
+    }
+
+    /*SERVICES*/
+    #services {
+        margin-bottom: 15vw;
+    }
+
+    #services h2, #services > div > * {
+        padding: 0 14.1vw 0 8vw;
+    }
+
+    #services h2 {
+        margin-bottom: 5vw;
+    }
+
+    #services .service {
+        margin-bottom: 22.4vw;
+        padding: 12vw 9vw;
+    }
+
+    #services .service:hover {
+        border-radius: 1rem;
+        box-shadow: .3rem .3rem .3rem #828282;
+    }
+    
+    #services .service:hover a {
+        background-color: #2D9CDB;
+        color: #fff;
+    }
+
+    .service i {
+        border-radius: 0.5rem;
+        color: #fff;
+        margin-bottom: 9.3vw;
+        padding: 4.55vw;
+    }
+
+    .service h3 {
+        font-size: var(--sm-24-px);
+        margin-bottom: 6.4vw;
+    }
+
+    .service p {
+        font-size: var(--sm-16-px);
+        margin-bottom: 8vw;
+    }
+
+    .service a {
+        background-color: #E0E0E0;
+        border-radius: 0.75rem;
+        padding: 2.7vw 3.2vw;
+        color: #828282;
+    }
+
+    #ui-ux-service i {
+        background-color: #2D9CDB;
+    }
+
+    #front-end-service i {
+        background-color: #27AE60;
+    }
+
+    #back-end-service i {
+        background-color: #EB5757;
+    }
+
+    /*DESIGN*/
+    #designs {
+        margin-bottom: 15vw;
+    }
+
+    #designs h2 {
+        margin: 0 0 13vw 8vw;
+    }
+
+    .design {
+        margin-bottom: 6.4vw;
+    }
+
+    .design img {
+        border-radius: 1rem;
+        width: 100%;
+    }
+
+    .design h4 {
+        color: #828282;
+        font-size: var(--sm-12-px);
+        font-weight: 300;
+    }
+
+    .design h3 {
+        font-size: var(--sm-18-px);
+    }
+
+    #designs a,  #designs i{
+        color: #2D9CDB;
+        font-size: var(--sm-18-px);
+    }
+
+    /*ABOUT*/
+    #about {
+        margin-bottom: 15vw;
+    }
+
+    #about-text {
+        margin-right: 22vw;
+        margin-bottom: 9.6vw;
+    }
+
+    #about-text h3 {
+        color: #EB5757;
+        font-size: var(--sm-18-px);
+        margin-bottom: 2.7vw;
+    }
+
+    #about-text h2 {
+        font-size: var(--sm-36-px);
+        margin-bottom: 5.4vw;
+    }
+    
+    #about-text p {
+        font-size: var(--sm-16-px);
+        font-weight: 400;
+        margin-bottom: 5.4vw;
+    }
+
+    #about-images {
+        display: grid;
+        grid-template-areas: 
+            "person3 person1"
+            "person3 person1"
+            "person3 person2"
+            "person3 person2";
+            gap: 2.7vw;
+            align-items: center;
+    }
+
+    #person1 {
+        grid-area: person1;
+    }
+
+    #person2 {
+        grid-area: person2;
+    }
+
+    #person3 {
+        grid-area: 2 / 1 / 4 / 2;
+    }
+
+    #about-images img {
+        border-radius: 1rem;
+        width: 100%;
+    }
+
+    /*CLIENTS*/
+    #clients {
+        margin-bottom: 20vw;
+    }
+
+    #clients h2 {
+        font-size: var(--sm-24-px);
+        margin-bottom: 5vw;
+    }
+
+    #client {
+        align-items: center;
+        display: flex;
+    }
+
+    #client img {
+        border-radius: .5rem;
+        height: 15vw;
+        margin-right: 5vw;
+        width: 15vw;
+    }
+
+    #client-info h3 {
+        font-size: var(--sm-24-px);
+    }
+
+    #client-info h4 {
+        color: #828282;
+        font-size: var(--sm-18-px);
+    }
+
+    /*FOOTER*/
+    footer {
+        background-color: #100E1D;
+        color: #fff;
+        padding: 10.7vw 10.7vw 6.4vw;
+    }
+
+    footer .menu-bar ul {
+        align-items: flex-start;
+        margin-bottom: 15vw;
+    }
+
+    #social-media > h2 {
+        color: #fff;
+        margin-bottom: 5vw;
+    }
+
+    #footer-form {
+        margin-bottom: 40vw;
+    }
+
+    #created-by {
+        color: #fff;
+        font-family: 'Montserrat', sans-serif;
+        font-size: var(--sm-14-px);
+        text-align: center;
+    }
+
+    #created-by a {
+        color: #fff;
+        font-weight: 700;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    /*INTRODUCTION*/
+    .contact-form form > * {
+        font-size: var(--sm-12-px);
+    }
+
+    /*SERVICES*/
+    .service i {
+        font-size: var(--sm-14-px);
+    }
+
+    /*DESIGN*/
+    #designs h2 {
+        margin: 0 8vw 13vw 8vw;
+    }
+    
+    /*FOOTER*/
+    #social-network img {
+        margin-right: 1.5rem;
+        width: 6.4vw;
+    }
+}
+
+@media screen and (min-width: 1023px) {
+    header, section, footer {
+        padding: 3.75vw 2.9vw;
+    }
+
+    h2 {
+        font-size: 3.3vw;
+    }
+
+    /*HEADER*/
+    header {
+        margin-bottom: 1vw;
+    }
+
+    .edie-title {
+        font-size: 2.5vw;
+    }
+
+    .menu-item a {
+        font-size: 1.67vw;
+    }
+
+    .menu-bar ul li:not(:last-child) {
+        margin-right: 5.2vw;
+    }
+
+    /*INTRODUCTION*/
+    #introduction {
+        margin-bottom: 6.9vw;
+    }
+
+    #introduction > *{
+        padding: 0 35vw 0 19.2vw;
+        margin-bottom: 1.6vw;
+    }
+
+    #introduction h3 {
+        font-size: 1.25vw;
+    }
+
+    #introduction img {
+        border-radius: 0.75rem;
+        padding: 0;
+        width: 100%;
+    }
+
+    #introduction p {
+        font-size: 1.25vw;
+    }
+
+    .contact-form h4 {
+        font-size: 0.9vw;
+        margin-bottom: 0.7vw;
+        margin-top: 2.9vw;
+    }
+
+    .contact-form form {
+        border-radius: 1rem;
+    }
+
+    .contact-form form > * {
+        font-size: 1.25vw;
+    }
+
+    .contact-form form input {
+        margin-left: 3vw;
+    }
+
+    .contact-form form button {
+        padding: 0.5vw 1.5vw;
+        margin: 0.4vw 0.4vw 0.4vw 4vw;
+    }
+
+    /*SERVICES*/
+    #services {
+        margin-bottom: 8vw;
+    }
+
+    #services h2, #services > div > * {
+        padding: 0 11.5vw 0;
+    }
+
+    #services h2 {
+        margin-bottom: 2.9vw;
+        margin-right: 40vw;
+    }
+
+    #service-cards {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #services .service {
+        margin-bottom: 0;
+        padding: 3.5vw 2.36vw;
+    }
+
+    .service i {
+        border-radius: 1.5rem;
+        font-size: 1.9vw;
+        margin-bottom: 2.5vw;
+        padding: 1.4vw;
+    }
+
+    #ui-ux-service i {
+        background-color: #2D9CDB;
+    }
+
+    #front-end-service i {
+        background-color: #27AE60;
+    }
+
+    #back-end-service i {
+        background-color: #EB5757;
+    }
+
+    .service h3 {
+        font-size: 1.7vw;
+        margin-bottom: 1.7vw;
+    }
+
+    .service p {
+        font-size: 1.1vw;
+        margin-bottom: 2.1vw;
+    }
+
+    .service a {
+        border-radius: 1rem;
+        padding: 0.7vw 1.4vw;
+    }
+
+    /*DESIGN*/
+    #designs {
+        margin-bottom: 10vw;
+        padding: 0 11.5vw;
+    }
+
+    #designs h2 {
+        margin: 0 40vw 5vw 0;
+    }
+
+    #design-cards {
+        display: grid;
+        grid-template-areas: 
+            "pic1 pic2"
+            "pic3 pic4";
+            gap: 2.5vw;
+    }
+
+    #design1 {
+        grid-area: pic1;
+    }
+
+    #design2 {
+        grid-area: pic2;
+    }
+
+    #design3 {
+        grid-area: pic3;
+    }
+
+    #design4 {
+        grid-area: pic4;
+    }
+
+    #design1, #design3 {
+        margin-top: 12vw;
+    }
+
+    .design {
+        margin-bottom: 3vw;
+    }
+
+    .design img {
+        border-radius: 1.5rem;
+    }
+
+    .design h4 {
+        font-size: 1vw;
+    }
+
+    .design h3 {
+        font-size: 1.7vw;
+    }
+
+    #designs a,  #designs i{
+        font-size: 1.7vw;
+    }
+
+    /*ABOUT*/
+    #about {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10vw;
+        padding: 0% 12vw;
+    }
+
+    #about-text {
+        flex-shrink: 2;
+        margin-right: 0vw;
+        margin-bottom: 0;
+        width: 30%;
+    }
+
+    #about-text h3 {
+        font-size: 1.25vw;
+        margin-bottom: 0;
+    }
+
+    #about-text h2 {
+        font-size: 2.5vw;
+        margin-bottom: 0;
+    }
+    
+    #about-text p {
+        font-size: 1.1vw;
+        margin-bottom: 0vw;
+    }
+
+    /*CLIENTS*/
+    #clients {
+        margin-bottom: 10vw;
+        padding: 0 0 0 12vw;
+    }
+
+    #clients h2 {
+        font-size: 2.5vw;
+        margin-bottom: 2vw;
+        margin-right: 23vw;
+    }
+
+    #client img {
+        border-radius: 1rem;
+        height: 7vw;
+        margin-right: 2vw;
+        width: 7vw;
+    }
+
+    #client-info h3 {
+        font-size: 1.7vw;
+    }
+
+    #client-info h4 {
+        font-size: 1.25vw;
+    }
+
+    /*FOOTER*/
+    footer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 3.2vw 10.4vw 1.6vw;
+    }
+
+    #footer-form {
+        margin-bottom: 0;
+    }
+
+    footer .menu-bar ul {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 2vw;
+        margin-bottom: 0;
+    }
+
+    footer ul a {
+        color: #fff !important;
+    }
+
+    #social-media > h2 {
+        color: #fff;
+        margin-bottom: 2.5vw;
+    }
+
+    #social-network {
+        display: flex;
+    }
+
+    #social-network img {
+        width: 1.7vw;
+    }
+
+    #created-by {
+        font-size: 1vw;
+        justify-self: stretch;
+        margin-top: 10vw;
+        width: 100%;
+    }
+}
