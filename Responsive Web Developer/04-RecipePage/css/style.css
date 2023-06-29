@@ -1,0 +1,261 @@
+/*
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Playfair Display', serif;
+*/
+
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+a:link, a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+@media screen and (min-width: 0px) {
+    body {
+        padding: 2rem 1rem;
+    }
+
+    /*INFO*/
+    #info {
+        margin-bottom: 0.75rem;
+    }
+
+    #info h1 {
+        font-family: 'Playfair Display', serif;
+        font-size: 1.5rem;
+        font-weight: 700;
+        margin-bottom: 0.75rem;
+    }
+
+    #info-text {
+        display: flex;
+        align-items: flex-start;
+    }
+
+    #info-text img {
+        margin-right: 0.75rem;
+    }
+
+    #info-text p {
+        color: #4F4F4F;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 0.75rem;
+        font-style: italic;
+        font-weight: 500;
+    }
+
+    /*IMAGE*/
+
+    #image img {
+        margin-bottom: 1.5rem;
+        width: 100%;
+    }
+
+    /*PREP TIME*/
+    #prep-time {
+        margin-bottom: 1.89rem;
+    }
+
+    .info-line {
+        display: flex;
+        font-family: 'Montserrat', sans-serif;
+        justify-items: center;
+        margin-bottom: 1.3rem;
+    }
+
+    .info-line h6 {
+        color: #BDBDBD;
+        font-size: 0.5rem;
+        font-weight: 700;
+    }
+
+    .info-line h5 {
+        font-size: 0.63rem;
+        font-weight: 500;
+    }
+
+    .cutlery-icon, .clock-icon {
+        margin-right: 0.35rem;
+    }
+
+    #servings .cutlery-icon {
+        color: #F2994A;
+    }
+
+    #servings h5 {
+        color: #F2994A;
+    }
+
+    #time {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #time h5 {
+        color: #333333;
+    }
+
+    /*INGREDIENTS*/
+    #ingredients {
+        color: #333333;
+    }
+
+    #ingredients h2 {
+        font-family: 'Playfair Display', serif;
+        font-size: 1.13rem;
+        font-weight: 700;
+        margin-bottom: 0.81rem;
+    }
+
+    #graham-cracker h2, #cheesecake h2 {
+        font-size: 1rem;
+        font-style: italic;
+        font-weight: 400;
+        margin-bottom: 1.44rem;
+    }
+
+    .dish-part {
+        margin-bottom: 2.5rem;
+    }
+
+    .ingredient {
+        display: flex;
+        margin-bottom: 0.5rem;
+    }
+
+    .ingredient input {
+        flex-shrink: 0;
+        height: 1.3rem;
+        margin-right: 0.5rem;
+        width: 1.3rem;
+    }
+
+    .ingredient span {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 0.88rem;
+        font-weight: 400;
+    }
+
+    .crossed {
+        text-decoration: line-through;
+    }
+
+    /*INSTRUCTIONS*/
+    #instructions {
+        margin-bottom: 1.63rem;
+    }
+
+    #instructions h2, #instructions h3 {
+        font-family: 'Playfair Display', serif;
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+
+    #instructions h2 {
+        color: #333333;
+        margin-bottom: 1.75rem;
+    }
+
+    #instructions h3 {
+        background-color: #F2994A;
+        border-radius: 0.3rem;
+        color: #fff;
+        flex-shrink: 0;
+        font-family: 'Playfair Display', serif;
+        font-weight: 700;
+        font-size: 1.5rem;
+        height:0;
+        margin-right: 0.94rem;
+        padding-bottom:2.25rem;
+        text-align: center;
+        width:2.25rem;
+    }
+
+    .instruction {
+        display: flex;
+        margin-bottom: 0.69rem;
+    }
+
+    .instruction p {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1rem;
+        font-weight: 400;
+    }
+
+    /*SOURCE*/
+    #source, #source a {
+        color: #BDBDBD;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 0.75rem;
+        font-style: italic;
+        font-weight: 400;
+        margin-bottom: 8.13rem;
+    }
+
+    /*FOOTER*/
+    footer {
+        color: #A9A9A9;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 0.9rem;
+        line-height: 1.1rem;
+        padding: 1.5rem 0;
+        text-align: center;
+    }
+
+    footer p {
+        font-weight: 500;
+    }
+
+    footer a {
+        font-weight: 700;
+    }
+
+    footer a:link, footer a:visited {
+        color: #A9A9A9;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    #time {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    #time .info-line {
+        margin-right: 2.5rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    body {
+        padding: 3.25rem 14.75rem;
+    }
+
+    /*INFO*/
+    #info-text, #ingredients, #instructions, #source {
+        width: 70%;
+    }
+
+    /*PREP TIME*/
+    #prep-time {
+        border-radius: 1rem;
+        box-shadow: 0 0 1rem #999999;
+        display: flex;
+        flex-direction: column;
+        float: right;
+        margin: 0;
+        padding: 2.5rem 1.5rem;
+    }
+
+    #time {
+        display: block;
+    }
+
+    #time .info-line {
+        margin-right: 0;
+    }
+}
